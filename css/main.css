@@ -8,10 +8,12 @@
 
 
 body {
-  font-family: 'Roboto', sans-serif;
-  /* background:; */
+  /*font-family: 'Roboto', sans-serif;
+   background:; 
   position: relative;
-  font-weight:400px;
+  font-weight:400px;*/
+
+
 }
 
 .i class"fa fa-user"{
@@ -174,7 +176,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #24252a;
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   width: 1348px;
   margin-top: -31px;
   z-index: 9999;
@@ -1044,7 +1049,12 @@ h2.title {
 }
 
 .product-overlay {
-  background:#FE980F;
+ background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
   top: 0;
   display: none;
   height: 0;
