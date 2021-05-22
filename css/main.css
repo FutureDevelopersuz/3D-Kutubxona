@@ -166,17 +166,17 @@ a#scrollUp i{
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
+  align-items: normal;
+  padding: 20px 25%;
   background: #0F2027;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #83d3e7, #203A43, #83d3e7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #363432, #203A43, #363432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   width: 1348px;
   margin-top: -31px;
   z-index: 9999;
   position: fixed;
-  height: 50px;
+  height: 65px;
 }
 
 .logo {
