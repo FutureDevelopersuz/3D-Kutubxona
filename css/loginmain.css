@@ -1,17 +1,21 @@
-﻿
+
 /*************************
 *******Typography******
 **************************/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
-@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.caom/css?family=Abel);
 
 
 body {
-  background: #83d3e7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #83d3e7,#870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*font-family: 'Roboto', sans-serif;
+   background:; 
+  position: relative;
+  font-weight:400px;*/
+
+
 }
+
 .i class"fa fa-user"{
   margin-left: 100px; 
 }
@@ -174,10 +178,10 @@ header {
   padding: 22px 10%;
   background: #0F2027;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #83d3e7, #203A43, #83d3e7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   width: 1348px;
-  margin-top: -31px;
+  margin-top: 0px;
   z-index: 9999;
   position: fixed;
   height: 50px;
@@ -869,7 +873,7 @@ h2.title:before{
 }
 
 .category-products .panel-default .panel-heading {
-  background-color: #83d3e7;
+  background-color: #FFFFFF;
   border: 0 none;
   color: #FFFFFF;
   padding: 5px 20px;
@@ -1610,7 +1614,7 @@ background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, F
 
 .login-form form input, .signup-form form input {
   background: #F0F0E9;
-  border: medium none;
+  border: revert;
   color: #696763;
   display: block;
   font-family: 'Roboto', sans-serif;

